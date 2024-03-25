@@ -5,7 +5,6 @@ from tqdm import tqdm
 
 
 def preprocess_data(df):
-    print("newww")
     """
     description:
         preprocesses the data by converting string columns to list or dict objects,
