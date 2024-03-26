@@ -39,7 +39,7 @@ def preprocess_data(df):
 
     # make i_NUMBER for the number of issue codes on each entry
     col_name = "i_NUMBER"
-    df[col_name] = df["issue_codes"].apply(lambda x: len(code in x))
+    df[col_name] = df["issue_codes"].apply(lambda x: len(x))
 
     # turn client keys into columns
     client_keys = list(df["client"][0].keys())
