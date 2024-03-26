@@ -41,6 +41,10 @@ def preprocess_data(df):
     col_name = "i_NUMBER"
     df[col_name] = df["issue_codes"].apply(lambda x: len(x))
 
+    # make i_EMPTY for the entries with no issue codes
+    col_name = "i_EMPTY"
+    df[col_name] = df["i_NUMBER"].apply(lambda x: int(x == 0))
+
     # turn client keys into columns
     client_keys = list(df["client"][0].keys())
     for k in tqdm(client_keys, desc="client keys -> columns"):
