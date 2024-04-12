@@ -1,1 +1,3 @@
-
+company_performance.ipynb misses the following data:
+1. start date and end date of the data we want to download.
+2. tickers of the companies we want to study.
