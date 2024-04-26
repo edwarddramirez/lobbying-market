@@ -8,7 +8,7 @@ This project aims to explore the relationship between lobbying activities of com
 
 ## Data Sources
 
-1. **Lobbying Disclosure Act API**: This API provides data on lobbying expenditures by various organizations in the United States. We use it to gather information on lobbying expenses incurred by specific companies. The data was originally extracted by Rahul Krishna. [Source](https://lda.senate.gov/system/public/)
+1. **Lobbying Disclosure Act API**: This API provides data on lobbying expenditures by various organizations in the United States. We use it to gather information on lobbying expenses incurred by specific companies. The data was originally extracted by [Rahul Krishna](https://github.com/rmkrishn). [Source](https://lda.senate.gov/system/public/)
 
 2. **SEC Filings**: We extract data on a company's total assets from publicly available filings with the U.S. Securities and Exchange Commission (SEC). This information gives us insights into the financial health and scale of the company. [Source](https://www.sec.gov/edgar/search/)
 
@@ -25,6 +25,8 @@ This project aims to explore the relationship between lobbying activities of com
 3. **Correlation Analysis**: We perform statistical analysis to explore any potential correlations between lobbying expenditure, company total assets, and stock price movements. We mainly focus on the *Lobbying Ratio* and the *Relative Market Performance*, as defined in Slide #3 of the main presentation file.
 
 4. **Modelling**: We performed linear regression on the *Lobbying Ratio* and the *Relative Market Performance*. We also built classification models to determine whether or not the *Lobbying Ratio* can be used to infer if a company's stock price movement exceeds that of the S&P 500.
+
+See `presentation.pdf` for more details.
 
 ## Usage
 
@@ -55,7 +57,7 @@ This project aims to explore the relationship between lobbying activities of com
 
 ## Contributors
 
-- [Edward Ramirez](https://github.com/yourusername)
+- [Edward Ramirez](https://github.com/edwarddramirez)
 - [Nicolas Jaramillo Torres](https://github.com/nicoj13)
 - [Yong Cui](https://github.com/Itamik)
 - [Cara D'Alesio](https://github.com/cara-dalesio)
@@ -67,6 +69,3 @@ This project aims to explore the relationship between lobbying activities of com
 - Thanks to Yahoo Finance for providing historical stock price data.
 - We acknowledge the US Office of the Senate for making Lobbying Disclosure reports publicly available.
 - We acknowledge the SEC for making company filings publicly available. 
-
-## Remove API Key History before Making Repo Public
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
