@@ -12,7 +12,7 @@ This project aims to explore the relationship between lobbying activities of com
 
 2. **SEC Filings**: We extract data on a company's total assets from publicly available filings with the U.S. Securities and Exchange Commission (SEC). This information gives us insights into the financial health and scale of the company. [Source](https://www.sec.gov/edgar/search/)
 
-3. **Yahoo Finance**: We utilize the Yahoo Finance API to retrieve historical stock price data for the companies under analysis. This data is crucial for understanding the movement of stock prices over time.[Source](https://github.com/ranaroussi/yfinance)
+3. **Yahoo Finance**: We utilize the Yahoo Finance API to retrieve historical stock price data for the companies under analysis. This data is crucial for understanding the movement of stock prices over time. [Source](https://github.com/ranaroussi/yfinance)
 
 4. **OpenSecrets Lobbying Data**: We webscraped the OpenSecrets lobbying data to obtain an alternative lobbying dataset to cross-check with the raw data obtained from the Lobbying Disclosure Act API. [Source](https://www.opensecrets.org/federal-lobbying/)
 
