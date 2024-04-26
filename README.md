@@ -1,6 +1,6 @@
 
 
-# Lobbying Data Analysis for Stock Movement
+# Lobbying Efforts and Market Outcomes
 
 ## Introduction
 
