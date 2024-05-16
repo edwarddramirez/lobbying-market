@@ -1,4 +1,4 @@
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/edwarddramirez/lobbying-market/HEAD) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-brightgreen.svg)](https://creativecommons.org/publicdomain/zero/1.0/legalcode.en) ![Python](https://img.shields.io/badge/python-3.9.18-blue.svg) ![Repo Size](https://img.shields.io/github/repo-size/edwarddramirez/lobbying-market) 
 
 # Lobbying Efforts and Market Outcomes
 
@@ -46,6 +46,13 @@ See `presentation.pdf` for more details.
 - `utils`: Contains useful modules or files  
 
 **NOTE:** To run the files in the `data/LDA_data` and `data_processing/lobbying_eda` directories, move these directories to the main repo directory. Otherwise, the notebooks inside those directories must be modified to account for the fact that they are not in the main directory.
+
+## Installation
+Run the `environment.yml` file by running the following command on the main repo directory:
+```
+conda env create
+```
+The installation works for `conda==22.9.0`. 
 
 ## Main Dependencies
 
