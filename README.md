@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/edwarddramirez/lobbying-market/HEAD) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-brightgreen.svg)](https://creativecommons.org/publicdomain/zero/1.0/legalcode.en) ![Python](https://img.shields.io/badge/python-3.9.18-blue.svg) ![Repo Size](https://img.shields.io/github/repo-size/edwarddramirez/lobbying-market) 
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-brightgreen.svg)](https://creativecommons.org/publicdomain/zero/1.0/legalcode.en) ![Python](https://img.shields.io/badge/python-3.9.18-blue.svg) ![Repo Size](https://img.shields.io/github/repo-size/edwarddramirez/lobbying-market) 
 
 # Lobbying Efforts and Market Outcomes
 
